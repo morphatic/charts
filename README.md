@@ -6,7 +6,7 @@ This is a library of [Angular](https://angular.io) components that can create da
 
 To install, from the root directory of your project type:
 
-```
+```bash
 npm i -S d3 d3kit @morphatic/charts
 ```
 
@@ -14,7 +14,7 @@ The `d3` and `d3Kit` libraries are listed as `peerDependencies` so you have to e
 
 Then in the `app.module.ts` file in your project, `import` the `MorphaticChartsModule` and add it to the `imports` array of your `@NgModule` decorator as follows:
 
-```
+```typescript
 import { BrowserModule         } from '@angular/platform-browser';
 import { NgModule              } from '@angular/core';
 import { AppComponent          } from './app.component';
@@ -46,13 +46,13 @@ Bar charts consist of vertical bars representing the numeric values of a collect
 
 In your template you should add a tag as follows:
 
-```
+```html
 <bar-chart [data]="barData"></bar-chart>
 ```
 
 The variable `barData` is an array of `BarDatum` objects which have a pre-defined signature. In your component's `.ts` file, you should have something like:
 
-```
+```typescript
 import { Component } from '@angular/core';
 import { BarDatum  } from '@morphatic/charts';
 
