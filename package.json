@@ -1,0 +1,31 @@
+{
+  "name": "@morphatic/charts",
+  "description": "A charting library for Angular 5+ that uses d3 and d3kit.",
+  "version": "0.1.2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/morphatic/charts.git"
+  },
+  "homepage": "https://github.com/morphatic/charts",
+  "bugs": "https://github.com/morphatic/charts/issues",
+  "author": "Morgan Benton <morgan.benton@gmail.com> (https://morphatic.com)",
+  "license": "MIT",
+  "private": true,
+  "peerDependencies": {
+    "d3": "^4.12.0",
+    "d3kit": "^3.2.0"
+  },
+  "keywords": [
+    "chart",
+    "barchart",
+    "d3",
+    "d3kit",
+    "angular",
+    "components"
+  ],
+  "main": "bundles/morphatic-charts.umd.js",
+  "module": "esm5/morphatic-charts.js",
+  "es2015": "esm2015/morphatic-charts.js",
+  "typings": "morphatic-charts.d.ts",
+  "metadata": "morphatic-charts.metadata.json"
+}
