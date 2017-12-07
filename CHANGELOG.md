@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.1.3](https://github.com/morphatic/charts/tree/0.1.3) (2017-12-07)
+[Full Changelog](https://github.com/morphatic/charts/compare/0.1.2...0.1.3)
+
 ## [0.1.2](https://github.com/morphatic/charts/tree/0.1.2) (2017-12-07)
 
 
