@@ -4,6 +4,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/morphatic/charts/badge.svg?branch=master)](https://coveralls.io/github/morphatic/charts?branch=master)
 [![GitHub issues](https://img.shields.io/github/issues/morphatic/charts.svg)](https://github.com/morphatic/charts/issues)
 [![GitHub license](https://img.shields.io/github/license/morphatic/charts.svg)](https://github.com/morphatic/charts/blob/master/LICENSE.md)
+[![Maintainability](https://api.codeclimate.com/v1/badges/e4f3881b55e06a56b38d/maintainability)](https://codeclimate.com/github/morphatic/charts/maintainability)
 
 This is a library of [Angular](https://angular.io) components that can create data visualizations using the powerful [d3](https://d3js.org) framework, and the [d3Kit](https://github.com/twitter/d3kit) library, which is designed to make it easier to create reusable d3 code. These charts should also work within [Ionic](https://ionicframework.com) projects, as well.
 
