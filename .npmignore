@@ -1,0 +1,5 @@
+# things NOT to publish with the package
+src
+tests
+.github_changelog_generator
+.travis.yml
