@@ -1,5 +1,8 @@
-# things NOT to publish with the package
+# things NOT to publish with the package (in addition to .gitignore)
 src
-tests
+.editorconfig
 .github_changelog_generator
 .travis.yml
+jest.conf.ts
+tsconfig.json
+tslint.json
