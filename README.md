@@ -90,3 +90,7 @@ export class HomePage {
 ```
 
 This code would generate a bar chart with three bars with the labels shown in the categories. Of course, data can be generated any way you like, e.g. retrieved from a database, pulled from a REST API, etc. It's also possible to change the chart, just by changing the data. The charts are fully styleable with CSS.
+
+## Acknowledgements
+
+I'd like to acknowledge the efforts of the ISAT 345 class students from Fall 2017, without whose collaboration, this library would never have materialized.
