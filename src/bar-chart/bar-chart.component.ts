@@ -13,6 +13,7 @@ import { BarDatum } from '../types';
 })
 export class BarChartComponent extends SvgChart implements OnChanges {
 
+  // tslint:disable-next-line:no-input-rename
   @Input('data') bcdata: BarDatum[];
 
   // define public properties
@@ -43,7 +44,7 @@ export class BarChartComponent extends SvgChart implements OnChanges {
     this.fit(
       {
         mode: 'aspectRatio',
-        ratio: 4/3,
+        ratio: 4 / 3,
         maxWidth: window(el.nativeElement).innerWidth * 0.95,
         maxHeight: window(el.nativeElement).innerWidth * 0.95 * 0.75,
       },
